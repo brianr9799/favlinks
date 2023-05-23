@@ -24,8 +24,8 @@ const TableBody = ({linkData,removeLink}) => {
           {row.name}
         </td>
         <td>
-          <a href={row.URL}>
-            {row.URL}
+          <a href={row.url}>
+            {row.url}
           </a>
         </td>
         <td>
